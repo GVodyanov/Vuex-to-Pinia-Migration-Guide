@@ -16,6 +16,8 @@ transition: slide-left
 mdc: true
 fonts:
   sans: Inter
+canvasWidth: 1050
+
 ---
 
 # Vuex -> Pinia
@@ -102,7 +104,7 @@ export const useCounterStore = defineStore('counter', {
 
 # Updating the state
 
-<div style="display: flex; flex-direction: row; gap: 1rem; width: 100%; margin-left: -2rem;">
+<div style="display: flex; flex-direction: row; gap: 1rem; width: 100%;">
 
 <div>
 <p>
